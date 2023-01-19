@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="270.0" prefWidth="759.0" style="-fx-background-color: #3c414a;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.certificate">
+   <children>
+      <ImageView fitHeight="270.0" fitWidth="290.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/favicon.jpg" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="287.0" layoutY="-1.0" prefHeight="48.0" prefWidth="472.0" text="CERTIFIRE" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="461.0" layoutY="194.0" onAction="#submet" prefHeight="34.0" prefWidth="124.0" style="-fx-background-color: #3c414a; -fx-background-radius: 20; -fx-border-color: white; -fx-border-width: 3; -fx-border-radius: 20;" text="SUBMIT" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <TextField fx:id="yourKey" layoutX="371.0" layoutY="83.0" prefHeight="34.0" prefWidth="305.0" promptText="You'r key" style="-fx-background-radius: 20;" />
+      <TextField fx:id="certf" layoutX="371.0" layoutY="135.0" prefHeight="34.0" prefWidth="305.0" promptText="Certificate" style="-fx-background-radius: 20;" />
+      <Label layoutX="302.0" layoutY="85.0" text="KEY" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="302.0" layoutY="137.0" text="CERTF." textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="676.0" layoutY="6.0" onAction="#back" prefHeight="34.0" prefWidth="74.0" style="-fx-background-color: #3c414a; -fx-background-radius: 20; -fx-border-color: white; -fx-border-width: 3; -fx-border-radius: 20;" text="BACK" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
